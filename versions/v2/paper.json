@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 97712,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553",
+      "sha256": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553"
+    },
+    "source": {
+      "bytes": 113442,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb",
+      "sha256": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "We prove Shannon's three conjectured circle-vertex formulas in OEIS A374338, FORMULA (revision 4, 5 July 2024; retained in revision 21), by identifying circle intersections with two-neighbor growth on the triangular lattice. The vertex count after n >= 1 steps is (3*n^2 + 5*n + c_r)/3, where r = n mod 3 and (c_0,c_1,c_2) = (0,4,2). A strip-clipped hexagon describes every collinear seed length, and becomes an unclipped hexagon at the sharp threshold n >= max(2,m-3) for m seeds and n >= 2. Its counts prove the three- and four-seed formulas recorded by Markey and the conjectured five-seed difference relation observed by Pfoertner and recorded by Markey. Corollaries give the periodic second differences and the precise series identities linking Barker's circle-addition and petal generating functions.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 2,
+    "doi": null,
+    "lean_source": {
+      "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 97712,
+      "sha256": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553",
+      "url": "/api/v1/collected-papers/a374338-circle-vertices/files/pdf?version=2"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-23T21:31:57.600210599Z",
+    "record": "a374338-circle-vertices",
+    "repository_name": "a374338-circle-vertices",
+    "source": {
+      "bytes": 113442,
+      "sha256": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb",
+      "url": "/api/v1/collected-papers/a374338-circle-vertices/files/source?version=2"
+    },
+    "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-23T21:31:57.600210599Z",
+        "revision": "2",
+        "version": 2
+      }
+    ],
+    "work": "a374338-circle-vertices"
+  }
+}

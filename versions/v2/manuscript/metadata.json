@@ -1,0 +1,43 @@
+{
+  "id": "a374338-circle-vertices",
+  "revision": 2,
+  "problem_ids": ["a374338-circle-vertices", "a400701-hexgrowth"],
+  "topic": "Fixed-radius circle vertices and two-neighbor growth from arbitrary collinear triangular-lattice seeds",
+  "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+  "creators": [
+    {"name": "Ma, Haobo", "affiliation": "ChronoAI Pte Ltd, Singapore"},
+    {"name": "Zhang, Wenlin", "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"}
+  ],
+  "abstract": "We prove Shannon's three conjectured circle-vertex formulas in OEIS A374338, FORMULA (revision 4, 5 July 2024; retained in revision 21), by identifying circle intersections with two-neighbor growth on the triangular lattice. The vertex count after n >= 1 steps is (3*n^2 + 5*n + c_r)/3, where r = n mod 3 and (c_0,c_1,c_2) = (0,4,2). A strip-clipped hexagon describes every collinear seed length, and becomes an unclipped hexagon at the sharp threshold n >= max(2,m-3) for m seeds and n >= 2. Its counts prove the three- and four-seed formulas recorded by Markey and the conjectured five-seed difference relation observed by Pfoertner and recorded by Markey. Corollaries give the periodic second differences and the precise series identities linking Barker's circle-addition and petal generating functions.",
+  "summary": "An all-iteration geometric proof of the circle-vertex formulas and all-collinear-seed strip-clipped shape, including the sharp eventual-hexagon threshold, width-three count differences, Markey's periodic second differences, and qualified Barker-series identities.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean",
+  "verification": {
+    "written": "Euclidean-to-lattice equivalence; strip-clipped shape for every m >= 2 and n >= 2; the sharp unclipped-hexagon threshold n >= max(2,m-3); eventual counts and width-three differences; all initial cases for m = 2,3,4,5; periodic second differences; generating functions and the shifted A264788 identity; petal-series algebra, distinct from geometric petal enumeration.",
+    "formal_sources": [
+      {"url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean", "declarations": ["ShannonA374338.result", "HexShapeCounts.count_difference"], "coverage": "All three Euclidean circle-count formulas for arbitrary distinct starting points; finite-shape count difference."},
+      {"url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/TriangularTwoNeighborGrowth.lean", "declarations": ["AxialGrowth.exact_shape", "CircleGrowth.intersection_lattice"], "coverage": "Exact shape for m = 2 or 5 and n >= 2; unit-circle intersections at lattice centers remain on the lattice."},
+      {"url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean", "declarations": ["MarkeyA400701.result"], "coverage": "Five-seed lattice count equals the circle count plus 4*n + 7 for n > 1."}
+    ],
+    "finite": "Exact-integer checks in verify.py; ranges and results in verification.json."
+  },
+  "source_items": [
+    {"id": "A374338", "url": "https://oeis.org/A374338", "revision": 21, "coverage": "Three conjectured formulas proved for n >= 1."},
+    {"id": "A400699", "url": "https://oeis.org/A400699", "revision": 38, "coverage": "Recorded three-seed formula and generating function given a geometric proof; the zero-index correction is credited to Paolo Xausa, revision 28, 10 October 2026."},
+    {"id": "A400700", "url": "https://oeis.org/A400700", "revision": 35, "coverage": "Recorded four-seed formula and generating function given a geometric proof."},
+    {"id": "A400701", "url": "https://oeis.org/A400701", "revision": 31, "coverage": "Recorded five-seed formula and conjectured difference relation proved for n >= 2; revision-4 second-difference pattern proved for n >= 4; Pfoertner's 4 October petal observation proved as an identity of the coefficients of Barker's cited generating function."},
+    {"id": "A264788", "url": "https://oeis.org/A264788", "revision": 20, "coverage": "Barker's generating function credited; shifted numerical identity established."},
+    {"id": "A374337", "url": "https://oeis.org/A374337", "coverage": "Region-count conjectures not covered."},
+    {"id": "A374339", "url": "https://oeis.org/A374339", "coverage": "Curved-edge counts not covered."},
+    {"id": "A338097", "url": "https://oeis.org/A338097", "coverage": "Different exactly-two update, not identified with the present process."},
+    {"id": "A008458", "url": "https://oeis.org/A008458", "coverage": "Distance-shell coordination sequence, not identified with the present process."},
+    {"id": "A265676", "url": "https://oeis.org/A265676", "coverage": "Barker's 2015 generating function cited; its coefficients have the stated periodic second differences and equal 3*s_5(n)-2 at index n+3 for n >= 2. Independent geometric petal enumeration is not covered."},
+    {"id": "A359569", "url": "https://oeis.org/A359569", "coverage": "Variable-radius compass construction not covered."},
+    {"id": "A371373", "url": "https://oeis.org/A371373", "coverage": "Regular-polygon circle construction not covered."},
+    {"id": "A371254", "url": "https://oeis.org/A371254", "coverage": "Regular-polygon arc construction and its questions not covered."},
+    {"id": "A400975", "url": "https://oeis.org/A400975", "coverage": "Exactly-two update variant not covered."},
+    {"id": "A400002", "url": "https://oeis.org/A400002", "coverage": "Exactly-two adjacent-pair update variant not covered."},
+    {"id": "A400977", "url": "https://oeis.org/A400977", "coverage": "Exactly-two adjacent-pair update variant not covered."},
+    {"id": "A136289", "url": "https://oeis.org/A136289", "coverage": "Neder's 22 June 2018 periodic-diagram argument is cited as related prior work; its noncollinear-seed, new-addition problem is not reproved here."}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "generated_paths": [
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "LICENSES/CC-BY-4.0.txt",
+    "README.md",
+    "formalization/nodes.json",
+    "manuscript/LICENSE.txt",
+    "manuscript/README.md",
+    "manuscript/metadata.json",
+    "manuscript/note.pdf",
+    "manuscript/note.tex",
+    "manuscript/verification.json",
+    "manuscript/verify.py",
+    "paper.json",
+    "paper.pdf",
+    "source.archive"
+  ],
+  "generator_version": "0.1.0",
+  "sha256": {
+    "CHANGELOG.md": "72fdc4c95d909a698bf4ab675114bc6bd855c9e556c356afc2e5097960b9dcf6",
+    "CITATION.cff": "5a420daf95cbf3914b5952502bd623fae669599b15afdab68ba754d63a8493de",
+    "CONTRIBUTING.md": "fafd66e63160b2a88f433af56d2af2b0f7bf6ed2fd417d46b54446ce07c627ff",
+    "LICENSES/CC-BY-4.0.txt": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+    "README.md": "69f918f5384ea45f4a4460df6d185ca5f076cd3eb77dd24f6009b39d594cef95",
+    "formalization/nodes.json": "d5fd005818e5878931b4330ab19eccfa08d4813c820acc4ee00f3252fa801464",
+    "manuscript/LICENSE.txt": "7075e5b76d68e9c02daa89d3d93a96358f11a1102f24461fac3ed667ff10c951",
+    "manuscript/README.md": "36fb1fb3826ad64790b3fcbe0b6f61c10e586bc7c20b563e1f4dd9b4c1537439",
+    "manuscript/metadata.json": "ad7274a8f6ffa50fe0d8e7abafa2a70efa2540f41f1c46174a4ffafa25a0aefc",
+    "manuscript/note.pdf": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553",
+    "manuscript/note.tex": "6247559adcaf913ed8813b4a76923cb580c5629d4d85d90e8631e160ae180fd7",
+    "manuscript/verification.json": "6ae84da18527d3d30bdf17a8ac8975c5af4b28349f9cfdef3dd7cecae59f265d",
+    "manuscript/verify.py": "26eb48c0194342901859dae1cdc09fcf7bd50933704080ce544849d7840ff5e1",
+    "paper.json": "1fc814f879add802e49dfafc78daeb3e230b68978844b69c1b233583db866d0a",
+    "paper.pdf": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553",
+    "source.archive": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb"
+  },
+  "snapshot_identity": "51c125bcfe36606b84b0d72d083ffb7ec5756188fb52212b38f52652da01e5a0"
+}

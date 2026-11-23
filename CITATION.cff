@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it."
+title: "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof"
+authors:
+  - name: "Haobo Ma"
+  - name: "Wenlin Zhang"
+date-released: "2026-11-23"
+version: "2"
+url: "https://mathesis-omega-research.apps.chrono-ai.fun/papers/a374338-circle-vertices?version=2"
+license: "CC-BY-4.0"

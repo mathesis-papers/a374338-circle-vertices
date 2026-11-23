@@ -1,0 +1,136 @@
+{
+  "arbitrary_seed_shapes": {
+    "iterations": [
+      0,
+      30
+    ],
+    "pre_stabilization_witnesses": 120,
+    "seed_counts": [
+      2,
+      20
+    ],
+    "six_seed_step_two": {
+      "extra_axial_sites": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          -3
+        ]
+      ],
+      "occupied": 28,
+      "unclipped": 30
+    },
+    "stable_count_cases": 431,
+    "states": 589
+  },
+  "arithmetic": "exact Python integers; no floating-point operations",
+  "checker_sha256": "26eb48c0194342901859dae1cdc09fcf7bd50933704080ce544849d7840ff5e1",
+  "circle_displacements": {
+    "coordinate_box": [
+      -4,
+      4
+    ],
+    "eligible_cases": 18,
+    "norm_classes": {
+      "1": 6,
+      "3": 6,
+      "4": 6
+    }
+  },
+  "generating_functions_and_increments": {
+    "identities_checked": 5003,
+    "iterations": [
+      0,
+      1000
+    ]
+  },
+  "growth": {
+    "first_eleven_counts": {
+      "2": [
+        2,
+        4,
+        8,
+        14,
+        24,
+        34,
+        46,
+        62,
+        78,
+        96,
+        118
+      ],
+      "3": [
+        3,
+        7,
+        13,
+        19,
+        31,
+        43,
+        55,
+        73,
+        91,
+        109,
+        133
+      ],
+      "4": [
+        4,
+        10,
+        18,
+        26,
+        38,
+        52,
+        66,
+        84,
+        104,
+        124,
+        148
+      ],
+      "5": [
+        5,
+        13,
+        23,
+        33,
+        47,
+        61,
+        77,
+        97,
+        117,
+        139,
+        165
+      ]
+    },
+    "iterations": [
+      0,
+      40
+    ],
+    "seed_counts": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "states": 164
+  },
+  "hexagon_identity": {
+    "A": [
+      3,
+      12
+    ],
+    "L_minus_A": [
+      2,
+      12
+    ],
+    "candidate_points": 52855,
+    "constructive_boundary_cases": 5390
+  },
+  "scope": "Finite checks support the written all-iteration proof in note.tex; the bounds above are finite.",
+  "sibling_series": {
+    "five_seed_petal_relations": 999,
+    "periodic_second_difference_identities": 1998,
+    "scope": "The petal sequence here is defined by the cited rational generating function."
+  },
+  "status": "pass"
+}
