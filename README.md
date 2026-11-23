@@ -5,13 +5,15 @@
 We prove Shannon's three conjectured circle-vertex formulas in OEIS A374338, FORMULA (revision 4, 5 July 2024; retained in revision 21), by identifying circle intersections with two-neighbor growth on the triangular lattice. The vertex count after n >= 1 steps is (3*n^2 + 5*n + c_r)/3, where r = n mod 3 and (c_0,c_1,c_2) = (0,4,2). A strip-clipped hexagon describes every collinear seed length, and becomes an unclipped hexagon at the sharp threshold n >= max(2,m-3) for m seeds and n >= 2. Its counts prove the three- and four-seed formulas recorded by Markey and the conjectured five-seed difference relation observed by Pfoertner and recorded by Markey. Corollaries give the periodic second differences and the precise series identities linking Barker's circle-addition and petal generating functions.
 
 - PDF: [frozen public file](paper.pdf)
+- DOI: [https://doi.org/10.5281/zenodo.24483571](https://doi.org/10.5281/zenodo.24483571)
+- Concept DOI: [https://doi.org/10.5281/zenodo.24483570](https://doi.org/10.5281/zenodo.24483570)
 - License: CC-BY-4.0
 - Version: 2
 - Mathesis record: [a374338-circle-vertices](https://mathesis-omega-research.apps.chrono-ai.fun/papers/a374338-circle-vertices?version=2)
 
 ## How to cite
 
-Haobo Ma, Wenlin Zhang (2026). Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof. Mathesis, version 2. https://mathesis-omega-research.apps.chrono-ai.fun/papers/a374338-circle-vertices?version=2
+Haobo Ma, Wenlin Zhang (2026). Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof. Mathesis, version 2. https://doi.org/10.5281/zenodo.24483571
 
 ## Statement progress
 
